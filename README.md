@@ -1,18 +1,50 @@
-## Getting Started
+<img src="https://raw.githubusercontent.com/dsbfelipe/readme-banners/main/images/dio.png">
+<img align="right" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<br>
+<br>
 
-## Folder Structure
+Este repositório faz parte do desafio Aprenda na Prática Programação Orientada a Objetos, oferecido pela Digital Innovation One (DIO). Neste projeto, coloquei em prática os principais conceitos da Programação Orientada a Objetos (POO) utilizando Java, simulando um Bootcamp com cursos, mentorias e desenvolvedores.
 
-The workspace contains two folders by default, where:
+## 📝 Objetivo do Projeto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O objetivo foi praticar na prática os quatro pilares da POO — Abstração, Encapsulamento, Herança e Polimorfismo — por meio de uma modelagem realista de um Bootcamp. O projeto visa aproximar o mundo real do mundo virtual, criando classes, atributos, métodos e instanciando objetos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🔧 Funcionalidades
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- **Domínio Modelado**: Criação das classes Bootcamp, Curso, Mentoria e Dev, representando elementos reais do contexto educacional.
 
-## Dependency Management
+- **Relacionamento entre Classes**: As classes interagem, permitindo simular inscrições de desenvolvedores em cursos e mentorias.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Aplicação dos Pilares POO**:
+
+  - Abstração: Foco nos atributos e comportamentos essenciais de cada entidade.
+
+  - Encapsulamento: Uso de modificadores de acesso para proteger os dados.
+
+  - Herança: Classe Conteudo como base para Curso e Mentoria.
+
+  - Polimorfismo: Manipulação genérica de conteúdos do Bootcamp.
+
+## 📖 Principais Conceitos Praticados
+
+**Abstração**: Extraí apenas as informações relevantes do domínio.
+
+**Encapsulamento**: Apliquei getters e setters para proteger atributos.
+
+**Herança**: Compartilhei atributos e comportamentos entre classes relacionadas.
+
+**Polimorfismo**: Tratei Curso e Mentoria como Conteudo, tornando o código mais flexível.
+
+## 💻 Tecnologias
+
+- Java JDK 21
+
+- VSCode
+
+- Git & GitHub
+
+## 💡 Créditos
+
+- Projeto realizado no Bootcamp GFT Start #7 - Java, da plataforma DIO em parceria com a GFT.
+- Aula ministrada pela professora Camila Cavalcante.
